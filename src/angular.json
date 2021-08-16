@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "vs-code-debug-demo": {
+    "vscode-debug-demo": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/vs-code-debug-demo",
+            "outputPath": "dist/vscode-debug-demo",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "vs-code-debug-demo:build:production"
+              "browserTarget": "vscode-debug-demo:build:production"
             },
             "development": {
-              "browserTarget": "vs-code-debug-demo:build:development"
+              "browserTarget": "vscode-debug-demo:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "vs-code-debug-demo:build"
+            "browserTarget": "vscode-debug-demo:build"
           }
         },
         "test": {
@@ -107,5 +107,5 @@
       }
     }
   },
-  "defaultProject": "vs-code-debug-demo"
+  "defaultProject": "vscode-debug-demo"
 }
