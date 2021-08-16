@@ -3,12 +3,12 @@
 ![Banner](/docs/git-repo-banner.png?raw=true "")
 
 # Overview
-Demonstrates how to debug an Angular (TypeScript) application using Visual Studio Code.
+Demonstrates how to configure an Angular (TypeScript) application for debugging in Visual Studio Code.
 
-Please note that the code contained in this repo compliments following blog article:
+The code contained in this repo compliments the following blog article:
 https://shanebart.com/TODO
 
-# Important Configuration
+# Configuration
 See the following configuration files:
 * /.vscode/launch.json
 * /.vscode/tasks.json
